@@ -1,6 +1,6 @@
 <div align = center>
 <img src="https://media.tenor.com/EGLtrVbpk8wAAAAM/chiikawa-cute.gif" alt="this slowpoke moves"  width="250" alt="404 image"/>
-<img src="https://media1.tenor.com/m/PIGZ7EEwwfUAAAAd/poro-poro-twerking.gif" alt="poro" width="270" alt="404 image"/>
+<img src="https://media1.tenor.com/m/PIGZ7EEwwfUAAAAd/poro-poro-twerking.gif" alt="poro" width="277" alt="404 image"/>
   
 # 💫 About Me:
 skibidi sigma
