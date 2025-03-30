@@ -5,16 +5,14 @@
 
 # 💫 About Me:
 Stinky Zoe main <br/>
-<img src="https://media1.tenor.com/m/7PVrdPSjUQgAAAAd/zoe-lol-zoe.gif" alt="zoe" width="400" alt="404 image"/>
 
-## 🌐 Socials:
-  [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:raneemikaellavgutierrez@gmail.com)
+<img src="https://media1.tenor.com/m/7PVrdPSjUQgAAAAd/zoe-lol-zoe.gif" alt="zoe" width="400" alt="404 image"/>
 
 # 📊 GitHub Stats:
   ![](https://github-readme-stats.vercel.app/api?username=seavens3nt&theme=rose&hide_border=false&include_all_commits=true&count_private=true)
   ![](https://nirzak-streak-stats.vercel.app/?user=seavens3nt&theme=rose&hide_border=false)
 
-### 🔝 Top Contributed Repo
+# 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=seavens3nt&limit=5&theme=rose&combine_all_yearly_contributions=true)
 
 ---
