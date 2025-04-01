@@ -15,7 +15,6 @@ Stinky Zoe main <br/>
 # 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=seavens3nt&limit=5&theme=rose&combine_all_yearly_contributions=true)
 
----
 ![Visitor Count](https://profile-counter.glitch.me/{seavens3nt}/count.svg) <br/>
 
 <img src="https://media.tenor.com/EGLtrVbpk8wAAAAM/chiikawa-cute.gif" alt="this slowpoke moves"  width="250" alt="404 image"/>
