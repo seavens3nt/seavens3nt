@@ -8,11 +8,6 @@ Stinky Zoe main <br/>
 
 <img src="https://media1.tenor.com/m/7PVrdPSjUQgAAAAd/zoe-lol-zoe.gif" alt="zoe" width="400" alt="404 image"/>
 
-# Chii:
-  ![](https://nirzak-streak-stats.vercel.app/?user=seavens3nt&theme=rose&hide_border=false)
-
-# 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=seavens3nt&limit=5&theme=rose&combine_all_yearly_contributions=true)
-
+# 🔝 Chiikawa:
 
 <img src="https://media.tenor.com/EGLtrVbpk8wAAAAM/chiikawa-cute.gif" alt="this slowpoke moves"  width="250" alt="404 image"/>
