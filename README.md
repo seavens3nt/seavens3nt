@@ -8,7 +8,7 @@ Stinky Zoe main <br/>
 
 <img src="https://media1.tenor.com/m/7PVrdPSjUQgAAAAd/zoe-lol-zoe.gif" alt="zoe" width="400" alt="404 image"/>
 
-# 📊 GitHub Stats:
+# Chii!:
   ![](https://github-readme-stats.vercel.app/api?username=seavens3nt&theme=rose&hide_border=false&include_all_commits=true&count_private=true)
   ![](https://nirzak-streak-stats.vercel.app/?user=seavens3nt&theme=rose&hide_border=false)
 
