@@ -1,0 +1,46 @@
+name: Update pink contribution arcade
+
+on:
+  schedule:
+    # Refresh every six hours in Manila time.
+    - cron: "17 */6 * * *"
+      timezone: "Asia/Manila"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/generate-arcade.mjs"
+      - ".github/workflows/update-arcade.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "24"
+
+      - name: Generate animated contribution arcade
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+        run: node scripts/generate-arcade.mjs --out assets/contribution-arcade.svg
+
+      - name: Commit updated arcade when it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contribution-arcade.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update contribution arcade"
+          git push
