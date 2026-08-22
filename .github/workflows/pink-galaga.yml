@@ -1,0 +1,80 @@
+name: Generate pink Galaga contribution graph
+
+on:
+  # Refresh automatically every day
+  schedule:
+    - cron: "0 0 * * *"
+
+  # Add a Run workflow button
+  workflow_dispatch:
+
+  # Generate it immediately when this file is added
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Generate Galaga animation
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: "galaga"
+          hide_month_labels: "true"
+
+      - name: Apply pink-and-cute palette
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          colors = {
+              # Dark version
+              "#0d1117": "#1b101a",
+              "#161b22": "#291722",
+              "#30363d": "#70405f",
+              "#0e4429": "#5b2347",
+              "#006d32": "#913467",
+              "#26a641": "#d55398",
+              "#39d353": "#ff7fbe",
+              "#58a6ff": "#ff9dce",
+              "#c9d1d9": "#ffe8f4",
+
+              # Light version
+              "#ffffff": "#fff7fb",
+              "#ebedf0": "#ffe9f3",
+              "#9be9a8": "#ffd1e5",
+              "#40c463": "#f6a0c8",
+              "#30a14e": "#e873ab",
+              "#216e39": "#b74780",
+
+              # Projectiles and accents
+              "#e3b341": "#ffd1e8",
+              "#f1e05a": "#ffe3a3",
+              "#ffd33d": "#ffd6e9",
+          }
+
+          for path in Path("dist").glob("galaga*.svg"):
+              svg = path.read_text(encoding="utf-8")
+
+              for original, replacement in colors.items():
+                  svg = svg.replace(original, replacement)
+                  svg = svg.replace(original.upper(), replacement.upper())
+
+              path.write_text(svg, encoding="utf-8")
+              print(f"Recolored {path}")
+          PY
+
+      - name: Publish animation
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
