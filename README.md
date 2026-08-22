@@ -5,14 +5,14 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-USERNAME/output/galaga-contribution-graph-dark.svg"
+    srcset="https://raw.githubusercontent.com/seavens3nt/seavens3nt/output/galaga-contribution-graph-dark.svg"
   >
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-USERNAME/output/galaga-contribution-graph.svg"
+    srcset="https://raw.githubusercontent.com/seavens3nt/seavens3nt/output/galaga-contribution-graph.svg"
   >
   <img
-    src="https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-USERNAME/output/galaga-contribution-graph.svg"
+    src="https://raw.githubusercontent.com/seavens3nt/seavens3nt/output/galaga-contribution-graph.svg"
     alt="Pink Galaga animation flying through my GitHub contributions"
     width="100%"
   >
