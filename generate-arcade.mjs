@@ -12,7 +12,7 @@ if (!outputPath) {
   throw new Error("--out must be followed by a file path");
 }
 
-const username = process.env.GITHUB_USERNAME || "YOUR-USERNAME";
+const username = process.env.seavens3nt || "seavens3nt";
 const token = process.env.GITHUB_TOKEN;
 
 const FONT = {
