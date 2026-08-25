@@ -10,7 +10,7 @@
         "y": 8
       },
       "size": {
-        "width": 632,
+        "width": 624,
         "height": 224
       },
       "config": {
@@ -33,7 +33,10 @@
         "animationType": "typewriter",
         "animationPreviewKey": 4,
         "animationEasing": "ease-in-out",
-        "lockAspectRatio": false
+        "lockAspectRatio": false,
+        "backgroundColor": "transparent",
+        "borderColor": "transparent",
+        "hideBorder": false
       },
       "locked": false,
       "visible": true,
@@ -179,7 +182,9 @@
         "cardRawUrl": "https://assets.tcgdex.net/en/tcgp/A3b/057/low.webp",
         "animationType": "scan-lines",
         "animationPreviewKey": 4,
-        "animationEasing": "ease-in-out"
+        "animationEasing": "ease-in-out",
+        "backgroundColor": "transparent",
+        "borderColor": "transparent"
       },
       "locked": false,
       "visible": true,
@@ -199,8 +204,8 @@
       },
       "config": {
         "accentColor": "#ff00ff",
-        "backgroundColor": "#060606",
-        "borderColor": "#212830",
+        "backgroundColor": "transparent",
+        "borderColor": "transparent",
         "theme": "dark",
         "animationType": "typewriter",
         "animationPreviewKey": 6,
@@ -246,7 +251,9 @@
         "backgroundColor": "transparent",
         "borderColor": "transparent",
         "animationType": "typewriter",
-        "animationPreviewKey": 1
+        "animationPreviewKey": 1,
+        "hideBorder": true,
+        "hideDecorations": false
       },
       "locked": false,
       "visible": true,
@@ -263,7 +270,7 @@
     "padding": 24,
     "themeMode": "dark",
     "templateStyle": "native",
-    "transparentBackground": false
+    "transparentBackground": true
   },
   "templateId": "terminal",
   "profileSlug": "default"
