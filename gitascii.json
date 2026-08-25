@@ -180,7 +180,7 @@
         ],
         "imageUrl": "https://assets.tcgdex.net/en/tcgp/A3b/057/low.webp",
         "cardRawUrl": "https://assets.tcgdex.net/en/tcgp/A3b/057/low.webp",
-        "animationType": "scan-lines",
+        "animationType": "none",
         "animationPreviewKey": 4,
         "animationEasing": "ease-in-out",
         "backgroundColor": "transparent",
