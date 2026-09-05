@@ -14,7 +14,7 @@
         "height": 224
       },
       "config": {
-        "headerColor": "#bd93f9",
+        "headerColor": "github-auto",
         "labelColor": "#ff79c6",
         "dotColor": "#6272a4",
         "valueColor": "#f8f8f2",
@@ -180,7 +180,7 @@
         ],
         "imageUrl": "https://assets.tcgdex.net/en/tcgp/A3b/057/low.webp",
         "cardRawUrl": "https://assets.tcgdex.net/en/tcgp/A3b/057/low.webp",
-        "animationType": "none",
+        "animationType": "scan-lines",
         "animationPreviewKey": 4,
         "animationEasing": "ease-in-out",
         "backgroundColor": "transparent",
@@ -191,73 +191,37 @@
       "zIndex": 4
     },
     {
-      "instanceId": "widget_1787681951189",
-      "widgetId": "contribution-snake",
-      "name": "Contribution-snake Widget",
+      "instanceId": "widget_1788631762267",
+      "widgetId": "ascii-text",
+      "name": "Ascii-text Widget",
       "position": {
         "x": 0,
-        "y": 328
+        "y": 248
       },
       "size": {
         "width": 800,
-        "height": 250
+        "height": 120
       },
       "config": {
-        "accentColor": "#ff00ff",
-        "backgroundColor": "transparent",
-        "borderColor": "transparent",
-        "theme": "dark",
-        "animationType": "typewriter",
-        "animationPreviewKey": 6,
-        "animationEasing": "ease-in-out",
-        "showTitle": false
+        "customText": "Sevensent",
+        "asciiFont": "block",
+        "charSpacing": 1,
+        "fontSize": 12,
+        "charset": "default",
+        "customCharset": "",
+        "asciiLines": [
+          " ▄█████  ████████ ██    ██ ████████ ██    ██  ▄█████  ████████ ██    ██ ████████",
+          "██       ██       ██    ██ ██       ███   ██ ██       ██       ███   ██    ██   ",
+          " ▀████▄  ██████   ██    ██ ██████   ██▀█  ██  ▀████▄  ██████   ██▀█  ██    ██   ",
+          "      ██ ██        ▀████▀  ██       ██ ▀█ ██       ██ ██       ██ ▀█ ██    ██   ",
+          "██████▀  ████████    ▀▀    ████████ ██   ███ ██████▀  ████████ ██   ███    ██   "
+        ],
+        "detail": "high",
+        "cols": 85
       },
       "locked": false,
       "visible": true,
       "zIndex": 3
-    },
-    {
-      "instanceId": "widget_1787682217024",
-      "widgetId": "godprofile-marquee",
-      "name": "Godprofile-marquee Widget",
-      "position": {
-        "x": 0,
-        "y": 256
-      },
-      "size": {
-        "width": 800,
-        "height": 64
-      },
-      "config": {
-        "accentColor": "#FF46A2",
-        "marqueeLangs": [
-          "react",
-          "ts",
-          "js",
-          "html",
-          "nodejs",
-          "python",
-          "git",
-          "docker",
-          "linux",
-          "py",
-          "java",
-          "nextjs",
-          "mongodb",
-          "mysql",
-          "supabase",
-          "github"
-        ],
-        "backgroundColor": "transparent",
-        "borderColor": "transparent",
-        "animationType": "typewriter",
-        "animationPreviewKey": 1,
-        "hideBorder": true,
-        "hideDecorations": false
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 4
     }
   ],
   "globalStyles": {
